@@ -306,7 +306,7 @@ st.markdown("""
 # -------------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:\\Users\\sudha\\OneDrive\\Desktop\\Data_Analysis\\P1\\OnlineRetail.csv", encoding="latin1")
+    df = pd.read_csv("OnlineRetail.csv", encoding="latin1")
     
     # Cleaning
     df = df.dropna(subset=["CustomerID"])
